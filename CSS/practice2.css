@@ -1,0 +1,62 @@
+h1 {
+  font-size: 30px;
+  color: blue;
+  background-color: blueviolet;
+}
+.a {
+  border: solid;
+  padding: 10px;
+  margin: 10px;
+}
+.b {
+  border-top: solid;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+.c {
+  border-right: solid;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+.d {
+  border-bottom: solid;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.e {
+  border-left: solid;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+.f {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+.g {
+  list-style-image: url("../images/star-on.png");
+  list-style-position: outside;
+}
+.h {
+  list-style: none url("../images/star-on.png") inside;
+}
+.box1 {
+  border: solid;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 500px;
+  right: 10px;
+  left: 50px;
+  bottom: 50px;
+  background-color: rgba(43, 46, 226, 0.5);
+  z-index: 10;
+}
+.box2 {
+  border: solid red;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 500px;
+  background-color: blueviolet;
+  z-index: 5;
+}

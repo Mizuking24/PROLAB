@@ -1,0 +1,335 @@
+.container {
+  border: solid 1px;
+  padding: 10px;
+  width: 1000px;
+}
+.box1 {
+  border: solid 1px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.box2 {
+  border: solid 1px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.item {
+  border: solid 1px;
+  padding: 10px;
+  height: 60px;
+  margin-right: 10px;
+  width: calc((100% - 54px) / 2);
+}
+.item:last-child {
+  margin-right: 0px;
+  text-align: right;
+}
+.nav {
+  border: solid 1px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.img {
+  border: solid 1px;
+  padding: 10px;
+  height: 500px;
+  margin-bottom: 10px;
+}
+.nav-item {
+  border: solid 1px;
+  margin-right: 10px;
+  padding: 10px;
+  width: calc((100% - 182px) / 6);
+  height: 50px;
+}
+.nav-item:last-child {
+  margin-right: 0px;
+}
+.intro-box {
+  border: solid 1px;
+  padding: 10px;
+  height: 150px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.intro-paragraph {
+  border: solid 1px;
+  padding: 10px;
+  height: calc(100% - 22px);
+  width: calc(70% - 32px);
+  margin-right: 10px;
+}
+.intro-image {
+  border: solid 1px;
+  padding: 10px;
+  height: calc(100% - 22px);
+  width: calc(30% - 22px);
+  margin-right: 0px;
+}
+.items-container {
+  border: solid 1px;
+  padding: 10px;
+  height: 610px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.items-box {
+  border: solid 1px;
+  padding: 10px;
+  height: calc(100% - 22px);
+  width: calc((100% - 86px) / 3);
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.items-box:last-child {
+  margin-right: 0px;
+}
+.item-image {
+  border: solid 1px;
+  padding: 10px;
+  height: calc(70% - 32px);
+  margin-bottom: 10px;
+}
+.item-paragraph {
+  border: solid 1px;
+  padding: 10px;
+  height: calc(30% - 22px);
+}
+footer {
+  border: solid 1px;
+  padding: 10px;
+  height: 100px;
+}
+
+@media screen and (max-width: 959px) {
+  .container {
+    border: solid 1px;
+    padding: 10px;
+    width: auto;
+  }
+  .box1 {
+    border: solid 1px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .box2 {
+    border: solid 1px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .item {
+    border: solid 1px;
+    padding: 10px;
+    height: 60px;
+    margin-right: 10px;
+    width: calc((100% - 54px) / 2);
+  }
+  .item:last-child {
+    margin-right: 0px;
+    text-align: right;
+  }
+  .nav {
+    border: solid 1px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .img {
+    border: solid 1px;
+    padding: 10px;
+    height: 500px;
+    margin-bottom: 10px;
+  }
+  .nav-item {
+    border: solid 1px;
+    margin-right: 10px;
+    padding: 10px;
+    width: calc((100% - 86px) / 3);
+    height: 50px;
+  }
+  .nav-item:nth-of-type(-n + 3) {
+    margin-bottom: 10px;
+  }
+  .nav-item:nth-of-type(3) {
+    margin-right: 0px;
+  }
+  .nav-item:last-child {
+    margin-right: 0px;
+  }
+  .intro-box {
+    border: solid 1px;
+    padding: 10px;
+    height: 150px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .intro-paragraph {
+    border: solid 1px;
+    padding: 10px;
+    height: calc(100% - 22px);
+    width: calc(70% - 32px);
+    margin-right: 10px;
+  }
+  .intro-image {
+    border: solid 1px;
+    padding: 10px;
+    height: calc(100% - 22px);
+    width: calc(30% - 22px);
+    margin-right: 0px;
+  }
+  .items-container {
+    border: solid 1px;
+    padding: 10px;
+    height: 610px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .items-box {
+    border: solid 1px;
+    padding: 10px;
+    height: calc(100% - 22px);
+    width: calc((100% - 86px) / 3);
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .items-box:last-child {
+    margin-right: 0px;
+  }
+  .item-image {
+    border: solid 1px;
+    padding: 10px;
+    height: calc(70% - 32px);
+    margin-bottom: 10px;
+  }
+  .item-paragraph {
+    border: solid 1px;
+    padding: 10px;
+    height: calc(30% - 22px);
+  }
+  footer {
+    border: solid 1px;
+    padding: 10px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .container {
+    border: solid 1px;
+    padding: 10px;
+    width: auto;
+  }
+  .box1 {
+    border: solid 1px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .box2 {
+    border: solid 1px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .item {
+    border: solid 1px;
+    padding: 10px;
+    height: 70px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    width: calc(100% - 22px);
+    text-align: center;
+  }
+  .item:last-child {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .nav {
+    border: solid 1px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .img {
+    border: solid 1px;
+    padding: 10px;
+    height: 500px;
+    margin-bottom: 10px;
+  }
+  .nav-item {
+    border: solid 1px;
+    margin-right: 0px;
+    padding: 10px;
+    width: calc(100% - 22px);
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  .nav-item:nth-of-type(-n + 3) {
+    margin-bottom: 10px;
+  }
+  .nav-item:nth-of-type(3) {
+    margin-right: 0px;
+  }
+  .nav-item:last-child {
+    margin-right: 0px;
+  }
+  .intro-box {
+    border: solid 1px;
+    padding: 10px;
+    height: 150px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .intro-paragraph {
+    border: solid 1px;
+    padding: 10px;
+    height: 45px;
+    width: calc(100% - 22px);
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .intro-image {
+    border: solid 1px;
+    padding: 10px;
+    height: 45px;
+    width: calc(100% - 22px);
+    margin-right: 0px;
+  }
+  .items-container {
+    border: solid 1px;
+    padding: 10px;
+    height: 610px;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .items-box {
+    border: solid 1px;
+    padding: 10px;
+    height: 175px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .items-box:last-child {
+    margin-right: 0px;
+  }
+  .item-image {
+    border: solid 1px;
+    padding: 10px;
+    height: calc(70% - 32px);
+    margin-bottom: 10px;
+  }
+  .item-paragraph {
+    border: solid 1px;
+    padding: 10px;
+    height: calc(30% - 22px);
+  }
+  footer {
+    border: solid 1px;
+    padding: 10px;
+    height: 100px;
+  }
+}

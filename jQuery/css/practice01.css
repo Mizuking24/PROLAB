@@ -1,0 +1,18 @@
+.num {
+  text-align: center;
+  width: 50px;
+  height: 100px;
+  margin: 50px;
+}
+.slick-prev {
+  left: 0;
+}
+
+.slick-next {
+  right: 0;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #000;
+  opacity: 1;
+}

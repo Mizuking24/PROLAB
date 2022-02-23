@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>イベントハンドラ</title>
+</head>
+<body>
+  <p id="clickid" onclick="clickfunc()"> 要素がクリックされた時にイベント発火</p>
+  <input id="blurid" type="text" name="blur" onblur="blurfunc()">
+  <input id="focusid" type="text" name="focus" onfocus="focusfunc()">
+  <input id="changeid" type="text" name="change" onchange="changefunc()">
+  <input id="selectid" type="text" value="ここを選択" name="select" onselect="selectfunc()">
+  <form onsubmit="submitfunc()">
+    <input id="submitid" type="submit" value="送信">
+  </form>
+  <form onreset="resetfunc()">
+    <input id="resetid" type="text" name="reset">
+    <button type="reset">リセット</button>
+  </form>
+  <p id="dblclickid" ondblclick="dblclickfunc()">要素がダブルクリックされた時にイベント発火</p>
+  <input id="keyupid" type="text" onkeyup="keyupfunc()">
+  <input id="keydownid" type="text" onkeydown="keydownfunc()">
+  <input id="mouseoutid" type="text" onmouseout="mouseoutfunc()">
+  <input id="mouseoverid" type="text" onmouseover="mouseoverfunc()">
+  <input id="mouseupid" type="text" onmouseup="mouseupfunc()">
+  <input id="mousedownid" type="text" onmousedown="mousedownfunc()">
+  <input id="mousemoveid" type="text" onmousemove="mousemovefunc()">
+
+  <script type="text/javascript" src="../js/practice6.js"></script>
+</body>
+</html>

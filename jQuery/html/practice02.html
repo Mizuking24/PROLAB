@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>jquery課題②</title>
+    <link rel="stylesheet" type="text/css" href="../css/practice02.css" media="all">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <form>
+      <p>ユーザー登録</p>
+      <div class="form-group">
+        <div>名前</div>
+        <input type="text" id="formName" name="name">
+      </div>
+      <div class="form-group">
+        <div>カナ</div>
+        <input type="text" id="formKana" name="name-kana">
+      </div>
+      <div class="form-group">
+        <div>郵便番号</div>
+        <input type="text" id="formPostCode" name="postCode">
+      </div>
+      <div class="form-group">
+        <div>住所(市町村)</div>
+        <input type="text" id="formAddress" name="address">
+      </div>
+      <div class="form-group">
+        <div>住所(番地及び建物名)</div>
+        <textarea id="formAddress2"></textarea>
+      </div>
+      <form name="form">
+        <input type="radio" name="sex" value="男">男
+        <input type="radio" name="sex" value="女">女
+      </form>
+      <input type="submit" id="submitId">
+    </form>
+
+    <div id="modal-container" class="modal-wrapper">
+      <div class="modal">
+        <p>以下の内容で登録しますか？</p>
+        <p>名前:</p>
+        <p id="modal-name"></p>
+        <p>カナ:</p>
+        <p id="modal-kana"></p>
+        <p>郵便番号:</p>
+        <p id="modal-addressCode"></p>
+        <p>住所:</p>
+        <p id="modal-address"></p>
+        <p>性別:</p>
+        <p id="modal-sex"></p>
+
+        <button>yes</button>
+        <button class="modal-close">no</button>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../jQuery/practice02.js"></script>
+  </body>
+</html>
